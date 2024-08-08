@@ -1,0 +1,209 @@
+.bold{
+  font-weight: bold ;
+  font-size: 20px;
+  color: aliceblue !important;
+}
+.mulcol:hover{
+  background-color: rgb(181, 252, 98);
+  color:black
+}
+.over:hover{
+  color:black;
+  background-image: linear-gradient(to right, #222224, #2a5268, #008d96, #39c792, #cbf66d);}
+.bannerbg{
+  background-image: url('./asserts/bg.png');
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  /* width: 100%;
+  height: 100%; */
+}
+@keyframes rotate {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+.rotating-image {
+  animation: rotate 5s linear infinite;
+}
+@keyframes move {
+  0% { left: 80%; }
+  50% { left: calc(90% + 10px); }
+  100% { left: 80%; }
+}
+
+.animate-move {
+  animation: move 5s infinite;
+  position: relative;
+}  
+/* border */
+.image-container{
+  animation: zoom 3s infinite alternate;
+}
+@keyframes zoom {
+  0% {
+      transform: scale(0.5);
+  }
+  50% {
+      transform: scale(1.5);
+  }
+  100% {
+      transform: scale(0.5);
+  }
+}
+  
+.geentick {
+  list-style: none; /* Remove default list styling */
+  padding: 0;
+}
+.greenti::before {
+  content: "\2713"; 
+  position: absolute;
+  left: 0;
+  color: rgb(181, 252, 98); 
+  font-size: 20px;
+  top: 0;
+}
+.greenti {
+  position: relative; 
+  padding-left: 25px; 
+  margin-bottom: 10px; 
+  font-size: 18px; 
+}
+.aboutbg{
+  background-image: radial-gradient(circle, #607730 5%, #070f01 60%);
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  opacity: 0;
+  transition: 1.0s ease;
+  background: rgba(210,255,82,1);}
+
+.container1:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+ 
+  transform: translate(-50%, -50%);
+}
+.bordernone{
+  border: none;
+}
+.checked {
+  color: orange;
+}
+.getstarted:hover{
+ color:white
+}
+.servicebg{
+  background-image: url('./asserts/servicesbanner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+
+}
+.servicesimg{
+  background-image: url('./asserts/services\ img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+
+}
+.buttonover:hover{
+  
+  background-color: rgb(43, 137, 245);
+  color: white;
+  
+}
+.flip-card {
+  background-color: transparent;
+  width: 100%;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+.hovereffect:hover{
+  background-color: blue !important;
+}
+
+.ballmoving {
+    /* position: absolute; */
+    top: -10px; /* Adjust to center the ball vertically */
+    animation: moveBall 2s linear infinite;
+}
+@keyframes moveBall {
+  0% {
+      left: 0;
+  }
+  100% {
+      right: 100%;
+      transform: translateX(100%); /* Ensures the ball stays within the container */
+  }
+}
+.planover:hover{
+  border-color: #2980b9;
+}
+
+.card-container {
+  border: 2px solid #ccc;
+  transition: border-color 0.3s ease;
+}
+
+.card-container:hover {
+  border-color: blue;
+  
+}
+.buttonbgchange:hover{
+  background-color: #0404f3;
+  color: white;
+}
+.atomhover:hover{
+color:  rgb(6, 254, 80);
+}
+.animate_border:hover{
+  border-color:#cbf66d;
+  
+}
