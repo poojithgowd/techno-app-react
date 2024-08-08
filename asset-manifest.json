@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/techno-app-react/static/css/main.5f1c32a0.css",
+    "main.js": "/techno-app-react/static/js/main.f6d6a59e.js",
+    "static/media/hat man.png": "/techno-app-react/static/media/hat man.748c02cbca1dea24fc24.png",
+    "static/media/services img.jpg": "/techno-app-react/static/media/services img.99715f5923fe79bffac7.jpg",
+    "static/media/servicesbanner.jpg": "/techno-app-react/static/media/servicesbanner.03c5d8754f9c48b7fd55.jpg",
+    "static/media/lady-with mirror.png": "/techno-app-react/static/media/lady-with mirror.7534ec65bbda764f6787.png",
+    "static/media/about3.png": "/techno-app-react/static/media/about3.e46b570bdf5fe335aeaf.png",
+    "static/media/man with laptop.png": "/techno-app-react/static/media/man with laptop.86b9363dc3340d08118f.png",
+    "static/media/pr1.jpg": "/techno-app-react/static/media/pr1.3a2962963f1146cb8ecf.jpg",
+    "static/media/pr4.jpg": "/techno-app-react/static/media/pr4.d365105d76717c95d692.jpg",
+    "static/media/bg.png": "/techno-app-react/static/media/bg.3acc2a82062b7a8e3951.png",
+    "static/media/pr3.jpg": "/techno-app-react/static/media/pr3.b9b0b9f06e885b2ca882.jpg",
+    "static/media/blue ball.jpg": "/techno-app-react/static/media/blue ball.642a3305eeaf237ec746.jpg",
+    "static/media/pr2.jpg": "/techno-app-react/static/media/pr2.50b81230c9eb45e19eca.jpg",
+    "index.html": "/techno-app-react/index.html",
+    "main.5f1c32a0.css.map": "/techno-app-react/static/css/main.5f1c32a0.css.map",
+    "main.f6d6a59e.js.map": "/techno-app-react/static/js/main.f6d6a59e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f1c32a0.css",
+    "static/js/main.f6d6a59e.js"
+  ]
+}
